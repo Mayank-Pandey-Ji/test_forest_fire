@@ -3,13 +3,14 @@ from flask import Flask,request,jsonify,render_template
 import pandas as pd
 import numpy as np
 import pickle
+import os
 
 application = Flask(__name__)
 app = application
 
 ## import ridge regressor and standard scaler pickle
-ridge_model = pickle.load(open('29_step_by_step_implementation/models/ridge.pkl','rb'))
-standard_scaler = pickle.load(open('29_step_by_step_implementation/models/scaler.pkl','rb'))
+ridge_model = pickle.load(open('models/ridge.pkl','rb'))
+standard_scaler = pickle.load(open('models/scaler.pkl','rb'))
 
 
 @app.route("/")
@@ -36,4 +37,5 @@ def predict_datapoint():
         return render_template('home.html')
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0")
+    port = int(os.environ.get("PORT", 5000))  # default to 5000 for local
+    app.run(host='0.0.0.0', port=5000)
