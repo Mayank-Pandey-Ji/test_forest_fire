@@ -7,16 +7,13 @@ This is a simple machine learning web app built using **Flask** to predict the c
 first click on the deployed link : https://test-forest-fire-2.onrender.com/
 the website will look like this :
 
-![Screenshot 2025-06-27 123807](https://github.com/user-attachments/assets/475bf9c6-aeb1-4054-b2b1-99d50931ca4c)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/11dad58d-9caf-4fe6-b030-90fc07cb72a6" />
 
 
-Now add/write predictdata in the url section , like this:
+This is the Predicted Data :
 
-![Screenshot 2025-06-27 123819](https://github.com/user-attachments/assets/3e09899e-6ef9-4648-8133-10a2231f585e)
+<img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/2f0c8e56-46dc-4f1a-b66e-d37949cf07df" />
 
-now you can predict the data :
-
-![Screenshot 2025-06-27 123829](https://github.com/user-attachments/assets/f2d08b82-ac42-487c-9bb7-f6bca5f9515d)
 
 
 ## 🚀 Features
